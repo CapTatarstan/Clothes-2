@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.catalog {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  padding-top: 100px;
+}
+.catalog .sidebar {
+  display: flex;
+  width: 160px;
+}
+.catalog .sidebar .sidebar__sorting {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__title {
+  display: flex;
+  gap: 12px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__title .sidebar__text {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-left: 10px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__title img {
+  padding-bottom: 5px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__product-type {
+  display: flex;
+  flex-direction: column;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__product-type .sidebar__type {
+  padding-left: 10px;
+  width: 160px;
+  line-height: 40px;
+  color: #757575;
+  font-size: 16px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__product-type .sidebar__type:hover {
+  background-color: #D9E3EF;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__price {
+  display: flex;
+  flex-direction: column;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__price .sidebar__price-line {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__price .sidebar__price-line .sidebar__price-limited {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__price .sidebar__price-line .sidebar__price-limited .sidebar-limit {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__price .sidebar__price-line .sidebar__price-limited .sidebar-limit .sidebar__price {
+  width: 43px;
+  align-items: center;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #CDCDCD;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search {
+  display: flex;
+  flex-direction: column;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__search {
+  display: flex;
+  margin-left: 10px;
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  padding: 6px 10px 2px 13px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__search input {
+  width: 175px;
+  height: 11px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #A8A8A8;
+  padding-left: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__brend-name {
+  display: flex;
+  gap: 10px;
+  line-height: 15px;
+  padding-left: 10px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__brend-name .sidebar__column {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__brend-name .sidebar__column .sidebar__row {
+  display: flex;
+  flex-direction: column;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__brend-name .sidebar__column .sidebar__row .sidebar__brand {
+  display: flex;
+  gap: 10px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__seemore {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.catalog .sidebar .sidebar__sorting .sidebar__brend-search .sidebar__seemore .sidebar__more {
+  color: #7CBCEC;
+}
+.catalog .main .main__categories .main__column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.catalog .main .main__categories .main__column .main__row {
+  display: flex;
+  gap: 20px;
+}
+.catalog .main .main__categories .main__column .main__row .main__product {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.catalog .main .main__categories .main__column .main__row .main__product .main-name-price {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.catalog .main .main__categories .main__column .main__row .main__product .main-name-price .main__name {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #757575;
+}
+.catalog .main .main__categories .main__column .main__row .main__product .main-name-price .main__price {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #48494D;
+}/*# sourceMappingURL=catalog.css.map */
